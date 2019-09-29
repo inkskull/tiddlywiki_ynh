@@ -1,0 +1,44 @@
+{
+    "name": "TiddlyWiki",
+    "id": "tiddlyWiki",
+    "packaging_format": 1,
+    "description": {
+        "en": "An open source, modern and powerful wiki app built on Node.js.",
+        "fr": "Un wiki moderne et open source propulsé Node.js."
+    },
+    "version": "5.1.21.~ynh1",
+    "url": "https://tiddlywiki.com/",
+    "license": "AGPL-3.0-or-later",
+    "maintainer": {
+        "name": "inkskull"
+    },
+    "requirements": {
+        "yunohost": ">= 3.5"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain name for TiddlyWiki",
+                    "fr": "Choisissez un nom de domaine pour TiddlyWiki"
+                },
+                "example": "example.com"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "ask": {
+                    "en": "Is it a public application?",
+                    "fr": "Est-ce une application publique ?"
+                },
+                "default": true
+            }
+        ]
+    }
+}
