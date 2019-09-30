@@ -108,7 +108,7 @@ ynh_system_user_create --username=$app --home_dir="$final_path"
 #=================================================
 ynh_print_info --message="Creating LDAP user..."
 
-yunohost user create $ldap_user --firstname "SvcWikijsLdap" --lastname "SvcWikijsLdap" --mail ${ldap_user}@$domain --password $ldap_password -q 0
+yunohost user create $ldap_user --firstname "tiddlywiki" --lastname "tiddly" --mail ${ldap_user}@$domain --password $ldap_password -q 0
 
 #=================================================
 # SETUP SYSTEMD
