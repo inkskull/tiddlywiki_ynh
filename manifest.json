@@ -1,6 +1,6 @@
 {
     "name": "TiddlyWiki",
-    "id": "tiddlyWiki",
+    "id": "tiddlywiki",
     "packaging_format": 1,
     "description": {
         "en": "An open source, modern and powerful wiki app built on Node.js.",
