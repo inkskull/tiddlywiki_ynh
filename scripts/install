@@ -108,7 +108,7 @@ ynh_system_user_create --username=$app --home_dir="$final_path"
 #=================================================
 ynh_print_info --message="Creating LDAP user..."
 
-yunohost user create $ldap_user --firstname "tiddlywiki" --lastname "tiddly" --mail ${ldap_user}@$domain --password $ldap_password -q 0
+#yunohost user create $ldap_user --firstname "tiddlywiki" --lastname "tiddly" --mail ${ldap_user}@$domain --password $ldap_password -q 0
 
 #=================================================
 # SETUP SYSTEMD
@@ -123,10 +123,10 @@ ynh_add_systemd_config
 # MODIFY A CONFIG FILE
 #=================================================
 
-config_file="$final_path/config.yml"
-cp -f ../conf/config.sample.yml $config_file
+#config_file="$final_path/config.yml"
+#cp -f ../conf/config.sample.yml $config_file
 
-ynh_replace_string --match_string="__PORT__" --replace_string="$port" --target_file=$config_file
+#ynh_replace_string --match_string="__PORT__" --replace_string="$port" --target_file=$config_file
 
 
 #=================================================
@@ -134,7 +134,7 @@ ynh_replace_string --match_string="__PORT__" --replace_string="$port" --target_f
 #=================================================
 
 # Calculate and store the config file checksum into the app settings
-ynh_store_file_checksum --file=$config_file
+#ynh_store_file_checksum --file=$config_file
 
 #=================================================
 # GENERIC FINALIZATION
