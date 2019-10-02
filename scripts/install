@@ -178,14 +178,14 @@ ynh_systemd_action --service_name=nginx --action=reload
 #=================================================
 # SEND README TO ADMIN
 #=================================================
-ynh_print_info --message="Sending ReadMe to admin..."
+#ynh_print_info --message="Sending ReadMe to admin..."
 
-ynh_replace_string --match_string="__LDAP_USER__"    --replace_string="$ldap_user"    --target_file="../conf/ldap_message"
-ynh_replace_string --match_string="__LDAP_PASSWORD__"    --replace_string="$ldap_password"    --target_file="../conf/ldap_message"
-ynh_replace_string --match_string="__DOMAIN__"    --replace_string="$domain"    --target_file="../conf/ldap_message"
-ynh_replace_string --match_string="__PATH_URL__"    --replace_string="$path_url"    --target_file="../conf/ldap_message"
+#ynh_replace_string --match_string="__LDAP_USER__"    --replace_string="$ldap_user"    --target_file="../conf/ldap_message"
+#ynh_replace_string --match_string="__LDAP_PASSWORD__"    --replace_string="$ldap_password"    --target_file="../conf/ldap_message"
+#ynh_replace_string --match_string="__DOMAIN__"    --replace_string="$domain"    --target_file="../conf/ldap_message"
+#ynh_replace_string --match_string="__PATH_URL__"    --replace_string="$path_url"    --target_file="../conf/ldap_message"
 
-ynh_send_readme_to_admin --app_message="../conf/ldap_message" --recipients="root" --type='install'
+#ynh_send_readme_to_admin --app_message="../conf/ldap_message" --recipients="root" --type='install'
 
 #=================================================
 # END OF SCRIPT
