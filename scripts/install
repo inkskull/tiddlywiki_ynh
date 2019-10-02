@@ -104,12 +104,7 @@ ynh_system_user_create --username=$app --home_dir="$final_path"
 #=================================================
 # SPECIFIC SETUP
 #=================================================
-# CREATE LDAP USER
-#=================================================
-ynh_print_info --message="Creating LDAP user..."
-
-#yunohost user create $ldap_user --firstname "tiddlywiki" --lastname "tiddly" --mail ${ldap_user}@$domain --password $ldap_password -q 0
-
+$nodejs_path/node $final_path/tiddlywiki monwiki -- init server
 #=================================================
 # SETUP SYSTEMD
 #=================================================
@@ -117,6 +112,7 @@ ynh_print_info --message="Configuring a systemd service..."
 
 # Create a dedicated systemd config
 ynh_replace_string --match_string="__NODEJS_PATH__" --replace_string="$nodejs_path" --target_file="../conf/systemd.service"
+ynh_replace_string --match_string="__port__" --replace_string="$port" --target_file="../conf/systemd.service"
 ynh_add_systemd_config
 
 #=================================================
@@ -148,14 +144,14 @@ chown -R "$app":"$app" "$final_path"
 #=================================================
 # ADVERTISE SERVICE IN ADMIN PANEL
 #=================================================
-
+ynh_print_info --message="on ajoute le deamon..."
 # if using yunohost version 3.2 or more in the 'manifest.json', a description can be added
 yunohost service add $app --description "$app daemon for Wiki.js" -t systemd
 
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-
+ynh_print_info --message="on demarre le service..."
 ynh_systemd_action --service_name=$app --action=start --line_match="Browse to http://localhost" --log_path=systemd
 
 sleep 30
