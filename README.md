@@ -1,9 +1,9 @@
 # Wiki.js app for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/wikijs.svg)](https://dash.yunohost.org/appci/app/wikijs)  
-[![Install wikijs with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=wikijs)
+[![Install TiddlyWiki with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)]
 
-> *This package allow you to install wikijs quickly and simply on a YunoHost server.  
+> *This package allow you to install the NodeJS version of TiddlyWiki quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
 ## Overview
@@ -15,7 +15,6 @@ An open source, modern and powerful wiki app built on Node.js, Git and Markdown 
 
 **Wiki.js is still under development, all features not already implemented.**
 
-**Wiki.js** require a dedicated **root domain**, eg. wikijs.domain.tld
 
 ## Screenshots
 
@@ -35,15 +34,11 @@ An open source, modern and powerful wiki app built on Node.js, Git and Markdown 
 
 #### Multi-users support
 
-LDAP is implemented, root will receive a mail at the end of the installation or the upgrade with the informations to configure LDAP.
-HTTP auth for now but planned to be supported.
-The app can be used by multiple users
+To be completed
 
 #### Supported architectures
 
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/wikijs%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/wikijs/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/wikijs%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/wikijs/)
-* Jessie x86-64b - [![Build Status](https://ci-stretch.nohost.me/ci/logs/wikijs%20%28Apps%29.svg)](https://ci-stretch.nohost.me/ci/apps/wikijs/)
+
 
 ## Limitations
 
