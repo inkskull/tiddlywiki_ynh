@@ -24,11 +24,13 @@ Use it to keep your to-do list, to plan an essay or novel, or to organise your w
 
 ![tiddlywiki-screenshot1](https://github.com/inkskull/tiddlywiki_ynh/blob/master/Capture%20du%202019-10-03%2022-02-43.png)
 
+
+
 ![tiddlywiki-screenshot2](https://github.com/inkskull/tiddlywiki_ynh/blob/master/Capture%20d%E2%80%99%C3%A9cran%20de%202019-10-03%2022-04-39.png)
 
 ## Demo
 
-* [Official demo](https://docs-beta.requarks.io/)
+* The official site https://tiddlywiki.com/ works as a demo.
 
 ## Documentation
 
@@ -50,9 +52,9 @@ To be completed
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/wikijs_ynh/issues
- * App website: https://wiki.js.org/
- * App GitHub website: https://github.com/Requarks/wiki
+ * Report a bug: 
+ * App website: https://tiddlywiki.com/
+ * App GitHub website: https://github.com/Jermolene/TiddlyWiki5
  * YunoHost website: https://yunohost.org/
 
 ---
@@ -60,11 +62,3 @@ To be completed
 Developers info
 ----------------
 
-Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/wikijs_ynh/tree/testing).
-
-To try the testing branch, please proceed like that.
-```
-sudo yunohost app install https://github.com/YunoHost-Apps/wikijs_ynh/tree/testing --debug
-or
-sudo yunohost app upgrade wikijs -u https://github.com/YunoHost-Apps/wikijs_ynh/tree/testing --debug
-```
