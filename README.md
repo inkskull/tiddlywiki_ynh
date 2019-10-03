@@ -34,7 +34,7 @@ Use it to keep your to-do list, to plan an essay or novel, or to organise your w
 
 ## Documentation
 
- * Official documentation: https://docs-beta.requarks.io/
+ * Official documentation: 
 
 ## YunoHost specific features
 
