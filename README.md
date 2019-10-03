@@ -1,4 +1,4 @@
-# Wiki.js app for YunoHost
+# Tiddlywiki app for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/wikijs.svg)](https://dash.yunohost.org/appci/app/wikijs)  
 [![Install TiddlyWiki with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)]
@@ -12,6 +12,8 @@ TiddlyWiki, a unique non-linear notebook for capturing, organising and sharing c
 
 Use it to keep your to-do list, to plan an essay or novel, or to organise your wedding. Record every thought that crosses your brain, or build a flexible and responsive website.
 
+**WARNING : under developpement the uninstall script is not working properly**
+
 **Shipped version:** 2.0.0-beta.241
 
 ## Important points to read before installing
@@ -20,9 +22,9 @@ Use it to keep your to-do list, to plan an essay or novel, or to organise your w
 
 ## Screenshots
 
-![wikijs-screenshot1](https://github.com/inkskull/tiddlywiki_ynh/blob/master/Capture%20du%202019-10-03%2022-02-43.png)
+![tiddlywiki-screenshot1](https://github.com/inkskull/tiddlywiki_ynh/blob/master/Capture%20du%202019-10-03%2022-02-43.png)
 
-![wikijs-screenshot2](https://user-images.githubusercontent.com/30271971/52230062-beb1e800-28b6-11e9-99c1-2bd04857600e.png)
+![tiddlywiki-screenshot2](https://github.com/inkskull/tiddlywiki_ynh/blob/master/Capture%20d%E2%80%99%C3%A9cran%20de%202019-10-03%2022-04-39.png)
 
 ## Demo
 
