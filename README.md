@@ -7,13 +7,15 @@
 If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
 ## Overview
-An open source, modern and powerful wiki app built on Node.js, Git and Markdown for YunoHost.
+
+TiddlyWiki, a unique non-linear notebook for capturing, organising and sharing complex information.
+
+Use it to keep your to-do list, to plan an essay or novel, or to organise your wedding. Record every thought that crosses your brain, or build a flexible and responsive website.
 
 **Shipped version:** 2.0.0-beta.241
 
 ## Important points to read before installing
 
-**Wiki.js is still under development, all features not already implemented.**
 
 
 ## Screenshots
