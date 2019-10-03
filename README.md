@@ -20,7 +20,7 @@ Use it to keep your to-do list, to plan an essay or novel, or to organise your w
 
 ## Screenshots
 
-![wikijs-screenshot1](https://user-images.githubusercontent.com/30271971/52230053-b9ed3400-28b6-11e9-945e-355a752b8391.png)
+![wikijs-screenshot1](https://github.com/inkskull/tiddlywiki_ynh/blob/master/Capture%20du%202019-10-03%2022-02-43.png)
 
 ![wikijs-screenshot2](https://user-images.githubusercontent.com/30271971/52230062-beb1e800-28b6-11e9-99c1-2bd04857600e.png)
 
